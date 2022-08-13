@@ -3,11 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { firstComp } from './first-comp.component';
+import { child } from './child.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    firstComp
+    firstComp,
+    child
   ],
   imports: [
     BrowserModule
