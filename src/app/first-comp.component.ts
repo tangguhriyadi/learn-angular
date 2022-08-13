@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
   styles:[`h2, p {color:red}`]
 })
 export class firstComp {
-  // The code in this class drives the component's behavior.
+  nama = 'tangguh'
 }
