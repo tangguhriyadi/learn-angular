@@ -10,7 +10,7 @@ export class firstComp {
   nama = 'tangguh'
   color = 'green'
   active = false
-  sayHello = () => {
-    console.log(this.nama)
+  sayHello(e) {
+    console.log(e)
   }
 }
