@@ -8,5 +8,7 @@ import { Component } from '@angular/core';
 })
 export class zaku {
   isShow = false
-  
+  ubah(){
+    this.isShow = !this.isShow
+  }
 }

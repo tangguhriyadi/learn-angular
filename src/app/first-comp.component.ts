@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-
+import { Logger } from './logger.service';
 
 @Component({
   selector: 'first-comp',
@@ -10,7 +10,17 @@ export class firstComp {
   nama = 'tangguh'
   color = 'green'
   isActive = false
+  count = 0
+
+  constructor(private logger: Logger){
+
+  }
+
   sayHello(e) {
     console.log(`halo ${e}`)
+  }
+  increment(){
+    this.logger.writeCount(this.count)
+    this.count++
   }
 }

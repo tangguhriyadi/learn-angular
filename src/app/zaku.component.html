@@ -2,4 +2,9 @@
 <div *ngIf="isShow; else noEdit">
     <p>you can see this</p>
 </div>
-<ng-template #noEdit> this is else</ng-template>
+<ng-template #noEdit> 
+    <p>this is else</p>
+</ng-template>
+<div>
+    <button (click)="ubah()">ubah</button>
+</div>
