@@ -9,5 +9,8 @@ import { Component } from '@angular/core';
 export class firstComp {
   nama = 'tangguh'
   color = 'green'
-  active = true
+  active = false
+  sayHello = () => {
+    console.log(this.nama)
+  }
 }
