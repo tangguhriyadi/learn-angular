@@ -9,8 +9,8 @@ import { Component } from '@angular/core';
 export class firstComp {
   nama = 'tangguh'
   color = 'green'
-  active = false
+  isActive = false
   sayHello(e) {
-    console.log(e)
+    console.log(`halo ${e}`)
   }
 }
